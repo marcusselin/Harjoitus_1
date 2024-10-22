@@ -28,41 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.VaihdaBT = new System.Windows.Forms.Button();
-            this.OtsikkoLB = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            VaihdaBT = new Button();
+            OtsikkoLB = new Label();
+            SuspendLayout();
             // 
             // VaihdaBT
             // 
-            this.VaihdaBT.Location = new System.Drawing.Point(338, 259);
-            this.VaihdaBT.Name = "VaihdaBT";
-            this.VaihdaBT.Size = new System.Drawing.Size(75, 23);
-            this.VaihdaBT.TabIndex = 0;
-            this.VaihdaBT.Text = "button1";
-            this.VaihdaBT.UseVisualStyleBackColor = true;
-            this.VaihdaBT.Click += new System.EventHandler(this.VaihdaBT_Click);
+            VaihdaBT.Location = new Point(304, 257);
+            VaihdaBT.Name = "VaihdaBT";
+            VaihdaBT.Size = new Size(133, 23);
+            VaihdaBT.TabIndex = 0;
+            VaihdaBT.Text = "Paina minua";
+            VaihdaBT.UseVisualStyleBackColor = true;
+            VaihdaBT.Click += VaihdaBT_Click;
             // 
             // OtsikkoLB
             // 
-            this.OtsikkoLB.AutoSize = true;
-            this.OtsikkoLB.Location = new System.Drawing.Point(360, 155);
-            this.OtsikkoLB.Name = "OtsikkoLB";
-            this.OtsikkoLB.Size = new System.Drawing.Size(38, 15);
-            this.OtsikkoLB.TabIndex = 1;
-            this.OtsikkoLB.Text = "label1";
+            OtsikkoLB.AutoSize = true;
+            OtsikkoLB.Font = new Font("Segoe UI", 30F, FontStyle.Regular, GraphicsUnit.Point);
+            OtsikkoLB.Location = new Point(212, 163);
+            OtsikkoLB.Name = "OtsikkoLB";
+            OtsikkoLB.Size = new Size(313, 54);
+            OtsikkoLB.TabIndex = 1;
+            OtsikkoLB.Text = "Mahtava otsikko";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.OtsikkoLB);
-            this.Controls.Add(this.VaihdaBT);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(OtsikkoLB);
+            Controls.Add(VaihdaBT);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
